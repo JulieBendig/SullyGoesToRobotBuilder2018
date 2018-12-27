@@ -55,7 +55,7 @@ public class Drive extends Subsystem {
     }
 
     public void driveSully(Joystick stick) {
-        // Put code here to be run every loop
+        // Put code here to be run every loop. Loop is every 20 ms, 50 times per second
     	robotDrive.arcadeDrive(-stick.getX(),-stick.getY());
     }
 
